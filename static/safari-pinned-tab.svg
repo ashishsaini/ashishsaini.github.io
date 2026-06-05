@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="black"/>
+  <text x="256" y="256" fill="white" font-family="Arial, Helvetica, sans-serif"
+        font-size="300" font-weight="700" letter-spacing="-10"
+        text-anchor="middle" dominant-baseline="central">AS</text>
+</svg>

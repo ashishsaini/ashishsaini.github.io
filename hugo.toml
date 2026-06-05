@@ -3,23 +3,95 @@ languageCode = "en-us"
 title = "Ashish Saini"
 theme = "PaperMod"
 
+enableRobotsTXT = true
+enableEmoji = true
+
 [params]
     author = "Ashish Saini"
-    description = "Technical Blog - AI, Video Generation, Cloud Infrastructure"
-    keywords = ["AI", "Video Generation", "Cloud", "Development"]
-    
+    description = "Ashish Saini, AI & engineering leader. I take GenAI, computer vision, and AR from prototype to millions of users."
+    keywords = ["Ashish Saini", "AI", "GenAI", "Agentic AI", "Computer Vision", "AR", "Virtual Try-On", "Serverless", "CTO", "Engineering Leadership"]
+    DateFormat = "Jan 2, 2006"
+    ShowReadingTime = true
+    ShowShareButtons = false
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
+    TocOpen = false
+    ShowPostNavLinks = true
+    defaultTheme = "auto"
+
+    # Profile Mode
+    [params.profileMode]
+    enabled = true
+    title = "Ashish Saini"
+    subtitle = "AI & engineering leader. I take GenAI, computer vision, and AR from prototype to millions of users, and stay close enough to the architecture to ship it myself."
+    imageUrl = "/img/profile.png"
+    imageTitle = "Ashish Saini"
+    imageWidth = 150
+    imageHeight = 150
+
+    [[params.profileMode.buttons]]
+    name = "See My Work"
+    url = "/work/"
+
+    [[params.profileMode.buttons]]
+    name = "Read My Writing"
+    url = "/posts/"
+
+    [[params.profileMode.buttons]]
+    name = "Connect on LinkedIn"
+    url = "https://linkedin.com/in/ashysaini"
+
+    # Social Icons
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/ashysaini"
+
+    [[params.socialIcons]]
+    name = "email"
+    url = "mailto:ashy.saini@gmail.com"
+
 [menu]
     [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-    
-    [[menu.main]]
-    name = "Posts"
-    url = "/posts"
-    weight = 2
-    
+
     [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "/about/"
+    weight = 2
+
+    [[menu.main]]
+    name = "Expertise"
+    url = "/expertise/"
     weight = 3
+
+    [[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 4
+
+    [[menu.main]]
+    name = "Writing"
+    url = "/posts/"
+    weight = 5
+
+    [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+    [markup.highlight]
+    noClasses = false
+    style = "monokai"
+    [markup.goldmark.renderer]
+    unsafe = true
