@@ -1,56 +1,42 @@
-{{- /* Custom hero — overrides PaperMod's index_profile. Driven by site.Params.profileMode. */ -}}
-<div class="hero">
-    <div class="hero-bg" aria-hidden="true">
-        <span class="blob blob-1"></span>
-        <span class="blob blob-2"></span>
-        <span class="blob blob-3"></span>
-        <span class="hero-grid"></span>
+{{- /* Editorial monochrome hero — overrides PaperMod's index_profile. Driven by site.Params.profileMode. */ -}}
+<section class="hero">
+  {{- with site.Params.profileMode }}
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">CTO &amp; Co-founder · Comify</p>
+      <h1 class="hero-name">{{ .title | default site.Title }}</h1>
+      <p class="hero-lead">{{ .subtitle | markdownify }}</p>
+      <p class="hero-meta"><span class="status-dot" aria-hidden="true"></span> Noida, India · open to interesting problems</p>
+
+      {{- with .buttons }}
+      <div class="hero-actions">
+        {{- range $index, $btn := . }}
+        <a class="btn {{ if eq $index 0 }}btn-solid{{ else }}btn-ghost{{ end }}" href="{{ trim $btn.url " " }}" rel="noopener" title="{{ $btn.name }}">{{ $btn.name }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+
+      {{- with site.Params.socialIcons }}
+      <div class="hero-social">
+        {{- range . }}
+        <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name }}" aria-label="{{ .name }}">
+          {{- partial "svg.html" . }}
+        </a>
+        {{- end }}
+      </div>
+      {{- end }}
     </div>
 
-    {{- with site.Params.profileMode }}
-    <div class="hero-inner">
-        <span class="status-badge reveal">
-            <span class="status-dot"></span> Building Comify · open to interesting problems
-        </span>
-
-        {{- if .imageUrl }}
-        <div class="hero-photo reveal">
-            <img draggable="false" loading="eager"
-                src="{{ .imageUrl | relURL }}"
-                alt="{{ .imageTitle | default "Ashish Saini" }}"
-                title="{{ .imageTitle }}" />
-        </div>
-        {{- end }}
-
-        <h1 class="hero-name reveal">{{ .title | default site.Title | markdownify }}</h1>
-        <p class="hero-subtitle reveal">{{ .subtitle | markdownify }}</p>
-
-        {{- with site.Params.socialIcons }}
-        <div class="hero-social reveal">
-            {{- range . }}
-            <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name }}" aria-label="{{ .name }}">
-                {{- partial "svg.html" . }}
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
-
-        {{- with .buttons }}
-        <div class="hero-buttons reveal">
-            {{- range $index, $btn := . }}
-            <a class="hero-btn {{ if eq $index 0 }}primary{{ else }}secondary{{ end }}" href="{{ trim $btn.url " " }}" rel="noopener" title="{{ $btn.name }}">
-                {{ $btn.name }}
-                {{- if (findRE "://" $btn.url) }}
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14" aria-hidden="true">
-                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                    <path d="M15 3h6v6"></path>
-                    <path d="M10 14L21 3"></path>
-                </svg>
-                {{- end }}
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
+    {{- if .imageUrl }}
+    <div class="hero-portrait">
+      <div class="portrait-frame">
+        <img draggable="false" loading="eager"
+          src="{{ .imageUrl | relURL }}"
+          alt="{{ .imageTitle | default "Ashish Saini" }}"
+          width="600" height="600" />
+      </div>
     </div>
     {{- end }}
-</div>
+  </div>
+  {{- end }}
+</section>

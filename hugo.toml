@@ -38,10 +38,6 @@ enableEmoji = true
     name = "Read My Writing"
     url = "/posts/"
 
-    [[params.profileMode.buttons]]
-    name = "Connect on LinkedIn"
-    url = "https://linkedin.com/in/ashysaini"
-
     # Social Icons
     [[params.socialIcons]]
     name = "linkedin"

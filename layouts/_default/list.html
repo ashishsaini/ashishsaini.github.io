@@ -11,211 +11,149 @@
 
 {{- partial "index_profile.html" . }}
 
-<!-- Worked-with marquee -->
-<div class="marquee reveal">
-    <span class="marquee-label">Built for brands like</span>
-    <div class="marquee-track">
-        {{- range seq 2 }}
-        <span class="marquee-item">Lenskart</span>
-        <span class="marquee-item">Cars24</span>
-        <span class="marquee-item">Snapdeal</span>
-        <span class="marquee-item">Myntra</span>
-        <span class="marquee-item">Aqualens</span>
-        {{- end }}
+<!-- Impact band -->
+<section class="stats">
+    <div class="stat reveal">
+        <div class="stat-num" data-value="15+">15+</div>
+        <div class="stat-label">Years shipping</div>
     </div>
-</div>
-
-<!-- Tech Stack Section -->
-<section class="tech-stack">
-    <h2 class="reveal">🛠️ What I Work With</h2>
-    <div class="tech-grid">
-        <div class="tech-category reveal">
-            <h3>🧠 Generative AI & Agents</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">LLMs</span>
-                <span class="tech-tag">Multimodal Models</span>
-                <span class="tech-tag">Multi-Agent Systems</span>
-                <span class="tech-tag">Self-Learning Agents</span>
-                <span class="tech-tag">RAG</span>
-                <span class="tech-tag">Recommendation Systems</span>
-            </div>
-        </div>
-
-        <div class="tech-category reveal">
-            <h3>👁️ Computer Vision & AR</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">Virtual Try-On</span>
-                <span class="tech-tag">On-Device / Edge CV</span>
-                <span class="tech-tag">Segmentation</span>
-                <span class="tech-tag">Real-Time Video</span>
-                <span class="tech-tag">Blender Automation</span>
-                <span class="tech-tag">3D Asset Pipelines</span>
-            </div>
-        </div>
-
-        <div class="tech-category reveal">
-            <h3>🎨 Image & Video Generation</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">Stable Diffusion</span>
-                <span class="tech-tag">ComfyUI</span>
-                <span class="tech-tag">Gemini</span>
-                <span class="tech-tag">Claude</span>
-                <span class="tech-tag">Product Photoshoot Engines</span>
-                <span class="tech-tag">Talking-Avatar / Digital Twin</span>
-            </div>
-        </div>
-
-        <div class="tech-category reveal">
-            <h3>☁️ Platform & Infrastructure</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">AWS</span>
-                <span class="tech-tag">Lambda / Serverless</span>
-                <span class="tech-tag">Microservices</span>
-                <span class="tech-tag">High Availability</span>
-                <span class="tech-tag">Load Balancing</span>
-                <span class="tech-tag">Telephony & Messaging</span>
-            </div>
-        </div>
-
-        <div class="tech-category reveal">
-            <h3>🗄️ Data & Storage</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">MySQL</span>
-                <span class="tech-tag">Elasticsearch</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">Redis</span>
-                <span class="tech-tag">Memcached</span>
-                <span class="tech-tag">Clickstream Pipelines</span>
-            </div>
-        </div>
-
-        <div class="tech-category reveal">
-            <h3>🧰 Languages & Practice</h3>
-            <div class="tech-tags">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">PHP</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Agentic Engineering</span>
-                <span class="tech-tag">Build-vs-Buy</span>
-                <span class="tech-tag">Cost Optimization</span>
-            </div>
-        </div>
+    <div class="stat reveal">
+        <div class="stat-num" data-value="50M+">50M+</div>
+        <div class="stat-label">Messages / day</div>
+    </div>
+    <div class="stat reveal">
+        <div class="stat-num" data-value="10M+">10M+</div>
+        <div class="stat-label">Calls / day at peak</div>
+    </div>
+    <div class="stat reveal">
+        <div class="stat-num" data-value="99.9%">99.9%</div>
+        <div class="stat-label">Uptime · 100+ servers</div>
     </div>
 </section>
 
-<!-- Expertise Section -->
-<section class="expertise-section">
-    <h2 class="reveal">🎯 Areas of Expertise</h2>
-    <div class="expertise-grid">
-        <div class="expertise-card reveal">
-            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+<!-- 01 Expertise -->
+<section class="block">
+    <header class="block-head reveal">
+        <span class="eyebrow">01 / Expertise</span>
+        <h2 class="block-title">Where I'm genuinely useful</h2>
+    </header>
+    <div class="card-grid">
+        <article class="card reveal">
+            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
             </svg>
-            <h3>Generative AI & Agentic Systems</h3>
+            <h3>Generative AI &amp; Agentic Systems</h3>
             <p>Self-learning agents that research a brand, write copy, and tune themselves against live click-through. Photoshoot engines that turn a product shot into on-brand campaigns in bulk. Recommendation systems built on clickstream data.</p>
-        </div>
-
-        <div class="expertise-card reveal">
-            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+        </article>
+        <article class="card reveal">
+            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
             </svg>
-            <h3>Computer Vision & AR</h3>
+            <h3>Computer Vision &amp; AR</h3>
             <p>Virtual try-on shipped to millions across iOS, Android, and web. Real-time eyeglass removal at 12+ FPS on an iPhone 12. 2D and 3D asset pipelines built for coverage, quality, and cost.</p>
-        </div>
-
-        <div class="expertise-card reveal">
-            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </article>
+        <article class="card reveal">
+            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M13 10V3L4 14h7v7l9-11h-7z"/>
             </svg>
             <h3>High-Scale, Low-Cost Infrastructure</h3>
             <p>Serverless backends moving 50M+ messages a day. Telephony platforms peaking at 10M+ calls a day on 100+ servers at 99.9% uptime. Architecture designed around the bill, not just the diagram.</p>
-        </div>
-
-        <div class="expertise-card reveal">
-            <svg class="expertise-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+        </article>
+        <article class="card reveal">
+            <svg class="card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
             </svg>
-            <h3>Teams & Technical Strategy</h3>
+            <h3>Teams &amp; Technical Strategy</h3>
             <p>Built an AI/AR/Data team from 1 to 12. Led a 30+ person engineering org with the lowest attrition in the company. The build-vs-buy calls that quietly saved the most money.</p>
+        </article>
+    </div>
+</section>
+
+<!-- 02 Capabilities -->
+<section class="block">
+    <header class="block-head reveal">
+        <span class="eyebrow">02 / Capabilities</span>
+        <h2 class="block-title">What I work with</h2>
+    </header>
+    <div class="cap-grid">
+        <div class="cap reveal">
+            <h3>Generative AI &amp; Agents</h3>
+            <ul class="cap-tags">
+                <li>LLMs</li><li>Multimodal</li><li>Multi-Agent</li><li>Self-Learning Agents</li><li>RAG</li><li>Recommenders</li>
+            </ul>
+        </div>
+        <div class="cap reveal">
+            <h3>Computer Vision &amp; AR</h3>
+            <ul class="cap-tags">
+                <li>Virtual Try-On</li><li>On-Device CV</li><li>Segmentation</li><li>Real-Time Video</li><li>Blender</li><li>3D Pipelines</li>
+            </ul>
+        </div>
+        <div class="cap reveal">
+            <h3>Image &amp; Video Generation</h3>
+            <ul class="cap-tags">
+                <li>Stable Diffusion</li><li>ComfyUI</li><li>Gemini</li><li>Claude</li><li>Photoshoot Engines</li><li>Digital Twin</li>
+            </ul>
+        </div>
+        <div class="cap reveal">
+            <h3>Platform &amp; Infrastructure</h3>
+            <ul class="cap-tags">
+                <li>AWS</li><li>Lambda / Serverless</li><li>Microservices</li><li>High Availability</li><li>Load Balancing</li><li>Telephony</li>
+            </ul>
+        </div>
+        <div class="cap reveal">
+            <h3>Data &amp; Storage</h3>
+            <ul class="cap-tags">
+                <li>MySQL</li><li>Elasticsearch</li><li>MongoDB</li><li>Redis</li><li>Memcached</li><li>Clickstream</li>
+            </ul>
+        </div>
+        <div class="cap reveal">
+            <h3>Languages &amp; Practice</h3>
+            <ul class="cap-tags">
+                <li>Python</li><li>PHP</li><li>Node.js</li><li>Agentic Engineering</li><li>Build-vs-Buy</li><li>Cost Optimization</li>
+            </ul>
         </div>
     </div>
 </section>
 
-<!-- Career Highlights -->
-<section class="highlights-section">
-    <h2 class="reveal">📈 By the Numbers</h2>
-    <div class="highlights-grid">
-        <div class="highlight-stat reveal">
-            <div class="highlight-number" data-value="15+">15+</div>
-            <div class="highlight-label">Years Shipping</div>
-        </div>
-        <div class="highlight-stat reveal">
-            <div class="highlight-number" data-value="50M+">50M+</div>
-            <div class="highlight-label">Messages / Day</div>
-        </div>
-        <div class="highlight-stat reveal">
-            <div class="highlight-number" data-value="10M+">10M+</div>
-            <div class="highlight-label">Calls / Day at Peak</div>
-        </div>
-        <div class="highlight-stat reveal">
-            <div class="highlight-number" data-value="99.9%">99.9%</div>
-            <div class="highlight-label">Uptime · 100+ Servers</div>
-        </div>
-    </div>
-</section>
-
-<!-- CTA Section -->
-<section class="cta-section reveal">
-    <h2>Let's build something that ships</h2>
-    <p>I'm building Comify, and I'm always up for a real conversation about agentic systems in production, computer vision on the edge, or scaling a team without burning it out. If any of that is your problem too, say hi.</p>
-    <div class="cta-buttons">
-        <a href="/contact/" class="cta-button primary">
-            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-            </svg>
-            Get in Touch
-        </a>
-        <a href="/work/" class="cta-button secondary">
-            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-            </svg>
-            See My Work
-        </a>
-    </div>
-</section>
-
-<!-- Recent Posts -->
+<!-- 03 Writing -->
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
 {{- if $pages }}
-<section class="recent-posts">
-    <h2 class="reveal">📝 Recent Writing</h2>
-    {{- range first 3 $pages }}
-    <article class="post-entry reveal">
-        <header class="entry-header">
-            <h2>{{ .Title }}</h2>
-        </header>
-        <div class="entry-content">
-            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-        </div>
-        <footer class="entry-footer">
-            {{- partial "post_meta.html" . -}}
-        </footer>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-    </article>
-    {{- end }}
-    <div style="text-align: center; margin-top: 1.5rem;">
-        <a href="/posts/" class="cta-button secondary">View All Writing</a>
+<section class="block">
+    <header class="block-head reveal">
+        <span class="eyebrow">03 / Writing</span>
+        <h2 class="block-title">Field notes from the work</h2>
+    </header>
+    <div class="post-list">
+        {{- range first 3 $pages }}
+        <a class="post-row reveal" href="{{ .Permalink }}">
+            <div class="post-row-main">
+                <h3 class="post-row-title">{{ .Title }}</h3>
+                <p class="post-row-sum">{{ .Summary | plainify | htmlUnescape | truncate 150 }}</p>
+            </div>
+            <div class="post-row-meta">{{ .Date.Format "Jan 2, 2006" }}<span>{{ .ReadingTime }} min read</span></div>
+        </a>
+        {{- end }}
     </div>
+    <a class="more-link reveal" href="/posts/">All writing &rarr;</a>
 </section>
 {{- end }}
+
+<!-- CTA -->
+<section class="cta reveal">
+    <h2>Let's build something that ships.</h2>
+    <p>I'm building Comify, and I'm always up for a real conversation about agentic systems in production, computer vision on the edge, or scaling a team without burning it out. If any of that is your problem too, say hi.</p>
+    <div class="hero-actions">
+        <a href="/contact/" class="btn btn-solid">Get in touch</a>
+        <a href="/work/" class="btn btn-ghost">See my work</a>
+    </div>
+</section>
 
 <!-- Homepage interactions: staggered scroll-reveal + stat count-up -->
 <script>
 (function () {
     var els = document.querySelectorAll('.reveal');
-    // stagger siblings for a cascade effect
     els.forEach(function (el) {
         var sibs = Array.prototype.filter.call(el.parentElement.children, function (c) {
             return c.classList && c.classList.contains('reveal');
@@ -231,25 +169,31 @@
             suffix = m[2],
             dec = (m[1].split('.')[1] || '').length,
             dur = 1300,
-            start = null;
+            start = null,
+            done = false,
+            finalText = target.toFixed(dec) + suffix;
+        function finish() { if (!done) { done = true; el.textContent = finalText; } }
         function step(ts) {
+            if (done) return;
             if (!start) start = ts;
             var p = Math.min((ts - start) / dur, 1);
-            p = 1 - Math.pow(1 - p, 3); // easeOutCubic
+            p = 1 - Math.pow(1 - p, 3);
             el.textContent = (target * p).toFixed(dec) + suffix;
             if (p < 1) requestAnimationFrame(step);
-            else el.textContent = target.toFixed(dec) + suffix;
+            else finish();
         }
         requestAnimationFrame(step);
+        setTimeout(finish, dur + 700); // failsafe: never stick mid-count if rAF is throttled
     }
 
-    if ('IntersectionObserver' in window) {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduce && 'IntersectionObserver' in window) {
         var io = new IntersectionObserver(function (entries) {
             entries.forEach(function (e) {
                 if (!e.isIntersecting) return;
                 e.target.classList.add('in');
-                if (e.target.classList.contains('highlight-stat')) {
-                    var n = e.target.querySelector('.highlight-number');
+                if (e.target.classList.contains('stat')) {
+                    var n = e.target.querySelector('.stat-num');
                     if (n && !n.dataset.done) { n.dataset.done = '1'; countUp(n); }
                 }
                 io.unobserve(e.target);
