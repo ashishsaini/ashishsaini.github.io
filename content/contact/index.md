@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Get in touch about AI in production, agentic systems, computer vision on the edge, or scaling a team."
+description: "Get in touch about AI creative production, interactive learning products, or senior technical delivery."
 layout: "single"
 ---
 
@@ -10,14 +10,12 @@ The fastest way to reach me is email:
 
 I read everything and reply to most things within a day or two.
 
-## Good reasons to write
+## Best-fit project conversations
 
-- You're putting **AI agents into production** and want a second opinion on the architecture.
-- You're doing **computer vision or AR on real devices** and fighting the frame budget.
-- You're scaling a **serverless or telephony/messaging backend** and the bill is starting to hurt.
-- You're **building an AI/ML team** and want to compare notes on hiring, structure, and not burning people out.
-- You want to talk about a **build-vs-buy** call before you commit to either.
-- Advisory, consulting, or just a good technical conversation.
+- You need a repeatable **AI creative-production system** for product images, videos, campaign variants, or digital-twin content.
+- You want to turn a curriculum objective, character, or toy into a working **mobile/tablet learning experience** with interactive activities.
+- You have an AI product that needs senior help moving from demo to **reliable production**.
+- You need an interim **CTO, technical product lead, or architecture sprint** without hiring a full team first.
 
 If you email, a couple of lines on what you're working on and what you're stuck on goes a long way. It lets me actually be useful in the first reply instead of the third.
 

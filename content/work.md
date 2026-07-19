@@ -1,6 +1,6 @@
 ---
 title: "Work"
-description: "Case studies and demos: Comify, Lenskart, MyOperator, and a pile of side projects with the videos to prove they ran."
+description: "Case studies and demos: AI media automation, Lenskart, MyOperator, and product experiments with the videos to prove they ran."
 layout: "single"
 ---
 
@@ -10,9 +10,9 @@ A walk through the things I've built: what the problem was, what I did, and what
 
 ## Comify: CTO & Co-founder
 
-**2025 – present.** Intelligent, omnichannel customer-communication infrastructure for large consumer brands.
+**2025 – 2026.** Intelligent, omnichannel customer-communication infrastructure for large consumer brands.
 
-I co-founded Comify on a simple frustration: every brand spends enormous effort *delivering* messages and almost none deciding whether a message should be sent at all. We're building the layer that decides what to say, to whom, and when, then delivers it at scale, cheaply.
+I co-founded Comify on a simple frustration: every brand spends enormous effort *delivering* messages and almost none deciding whether a message should be sent at all. We built the layer that decided what to say, to whom, and when, then delivered it at scale, cheaply.
 
 - Architected a multi-agent communication platform handling **50M+ messages a day** (push, WhatsApp) for brands including Lenskart and Cars24.
 - Designed a serverless backend of **50+ production AWS Lambda functions** to orchestrate and deliver at scale with minimal cost per message.
