@@ -6,7 +6,7 @@ layout: "single"
 
 The fastest way to reach me is email:
 
-### [ashy.saini@gmail.com](mailto:ashy.saini@gmail.com)
+### [ashishsaini.tech@gmail.com](mailto:ashishsaini.tech@gmail.com)
 
 I read everything and reply to most things within a day or two.
 

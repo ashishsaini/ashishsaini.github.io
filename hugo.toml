@@ -45,7 +45,7 @@ enableEmoji = true
 
     [[params.socialIcons]]
     name = "email"
-    url = "mailto:ashy.saini@gmail.com"
+    url = "mailto:ashishsaini.tech@gmail.com"
 
 [menu]
     [[menu.main]]
